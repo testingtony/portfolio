@@ -1,0 +1,4 @@
+dbt-core
+dbt-postgres
+sqlfluff
+sqlfluff-templater-dbt

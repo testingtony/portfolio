@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: doubleinals
+    description: Double up the ordinals
+    columns:
+      - name: id
+        tests:
+          - unique
+          - even
+          - unique_even
